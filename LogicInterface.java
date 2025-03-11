@@ -65,8 +65,6 @@ public class LogicInterface {
                         this.secondaryQueue.add(fileReader.nextLine());
                     }
                 }
-            } else {
-                System.out.println("Unknown command!");
             }
             fileReader.close();
         } catch (FileNotFoundException e) {
