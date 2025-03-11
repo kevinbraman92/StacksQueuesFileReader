@@ -12,7 +12,7 @@ public class UserInterface {
 
     private void introMessage() {
         System.out.println("Welcome to the stacks & queues demonstration program!");
-        System.out.println("This program can preform three functions wtih a file: reverse, convert, and compare");
+        System.out.println("This program can preform three functions wtih a file: reverse, convert, and compare.");
         System.out.println("Enter 'help' to see a list of commands or to learn more about the functions. Enter 'Exit' to quit at any time.");
     }
 
