@@ -1,3 +1,4 @@
+package com.KevinBraman.stacksAndQueues;
 import java.util.Scanner;
 
 public class UserInterface {
@@ -11,13 +12,13 @@ public class UserInterface {
     }
 
     private void introMessage() {
-        System.out.println("Welcome to the stacks & queues demonstration program!");
+        System.out.println("\n\nWelcome to the stacks & queues demonstration program!");
         System.out.println("This program can preform three functions wtih a file: reverse, convert, and compare.");
         System.out.println("Enter 'help' to see a list of commands or to learn more about the functions. Enter 'Exit' to quit at any time.");
     }
 
     private void help() {
-        System.out.println("The three fundamental functions of the program are as follows:");
+        System.out.println("\nThe three fundamental functions of the program are as follows:");
         System.out.println("Reverse:    The program will read from the text file and print the contents in reverse order to a new text file.");
         System.out.println("Convert:    The program will read from the text file and print the contents in uppercase to a new text file.");
         System.out.println("Compare:    The program will read from two files and determine if the contents are equal.");
